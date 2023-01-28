@@ -14,7 +14,6 @@ linter:
     close_sinks: true
     comment_references: true
     control_flow_in_finally: true
-    diagnostic_describe_all_properties: true
     discarded_futures: true
     empty_statements: true
     hash_and_equals: true
@@ -33,7 +32,6 @@ linter:
     always_declare_return_types: true
     always_put_control_body_on_new_line: true
     always_put_required_named_parameters_first: true
-    always_specify_types: true
     annotate_overrides: true
     avoid_bool_literals_in_conditional_expressions: true
     avoid_catching_errors: true
@@ -84,7 +82,6 @@ linter:
     library_names: true
     library_prefixes: true
     library_private_types_in_public_api: true
-    lines_longer_than_80_chars: true
     no_leading_underscores_for_library_prefixes: true
     no_leading_underscores_for_local_identifiers: true
     no_runtimeType_toString: true
@@ -105,8 +102,6 @@ linter:
     prefer_conditional_assignment: true
     prefer_constructors_over_static_methods: true
     prefer_contain: true
-    prefer_double_quotes: true
-    prefer_expression_function_bodies: true
     prefer_final_fields: true
     prefer_final_in_for_each: true
     prefer_final_locals: true
@@ -132,11 +127,8 @@ linter:
     provide_deprecation_message: true
     public_member_api_docs: true
     recursive_getters: true
-    require_trailing_commas: true
     sized_box_shrink_expand: true
     slash_for_doc_comments: true
-    sort_constructors_first: true
-    sort_unnamed_constructors_first: true
     tighten_type_of_initializing_formals: true
     type_annotate_public_apis: true
     type_init_formals: true
@@ -177,6 +169,3 @@ linter:
     depend_on_referenced_packages: true
     package_names: true
     secure_pubspec_urls: true
-    sort_pub_dependencies: true
-
-
